@@ -1,8 +1,11 @@
+/* eslint-env node */
 module.exports = {
-    globals: {
-        MyGlobal: true
-    },
+    extends: 'eslint:recommended',
     rules: {
-        semi: [2, "always"]
-    }
-};
+        'no-console': 'off',
+        'comma-dangle': ['error', 'always-multiline'],
+        curly: ['error', 'all'],
+        quotes: ['error', 'single', { 'avoidEscape': true }],
+        semi: ['error', 'never'],
+    },
+}
