@@ -4,6 +4,10 @@
   "description": "My personal ESLint config",
   "author": "Emmanuel Vodor <manu@paca.happy-dev.fr>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubermanu/eslint-config.git"
+  },
   "keywords": [
     "eslint-config"
   ],
